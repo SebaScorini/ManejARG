@@ -1,0 +1,12 @@
+{
+  "name": "manejarg",
+  "private": true,
+  "version": "0.1.0",
+  "packageManager": "pnpm@9.15.0",
+  "scripts": {
+    "dev": "pnpm --dir frontend dev",
+    "build": "pnpm --dir frontend build",
+    "lint": "pnpm --dir frontend lint",
+    "test:e2e": "pnpm --dir frontend test:e2e"
+  }
+}
