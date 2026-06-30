@@ -26,4 +26,6 @@ frontend/.venv/
 .idea/
 .vscode/
 
+*.tsbuildinfo
+
 *.log
