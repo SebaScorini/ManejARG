@@ -6,6 +6,23 @@ Each new entry goes at the top (reverse chronological order).
 
 ---
 
+## 2026-06-30 — GitHub remote and branch setup
+
+**What was done:**
+Connected the workspace to `origin` at `https://github.com/SebaScorini/ManejARG.git`, created and pushed a local `develop` branch for day-to-day work, and kept `main` as the production base branch.
+
+**Key files:**
+- `PROGRESS.md` — recorded the repo connection and branch policy
+- `.gitignore` — ignored TypeScript build info files so generated artifacts stay out of version control
+
+**Decisions made:**
+- `main` remains the stable production branch in GitHub.
+- `develop` is the active working branch for ongoing changes.
+
+**Pending / next steps:**
+- Create future feature commits on `develop` and open PRs into `main`.
+- Keep `main` protected/default in GitHub once branch settings are available.
+
 <!--
 Template for new entries:
 
